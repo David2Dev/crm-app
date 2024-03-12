@@ -1,4 +1,4 @@
-import "./home.css";
+import "./forgotpassword.css";
 import Link from "next/link"; 
 
 export default function Page () {
@@ -15,18 +15,7 @@ export default function Page () {
       <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
         <form>
           <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-            <p className="lead fw-normal mb-0 me-3">Sign into CRM Dashboard</p>
-            {/* <button type="button" className="btn btn-primary btn-floating mx-1">
-              <i className="fab fa-facebook-f"></i>
-            </button>
-
-            <button type="button" className="btn btn-primary btn-floating mx-1">
-              <i className="fab fa-twitter"></i>
-            </button>
-
-            <button type="button" className="btn btn-primary btn-floating mx-1">
-              <i className="fab fa-linkedin-in"></i>
-            </button> */}
+            <p className="lead fw-normal mb-0 me-3">Enter the email address on file to receive password reset link</p>
           </div>
 
           <div className="divider d-flex align-items-center my-4">
@@ -41,13 +30,13 @@ export default function Page () {
           </div>
 
           
-          <div className="form-outline mb-3">
+          {/* <div className="form-outline mb-3">
             <input type="password" id="form3Example4" className="form-control form-control-lg"
               placeholder="Enter password" />
             <label className="form-label" htmlFor="form3Example4">Password</label>
-          </div>
+          </div> */}
 
-          <div className="d-flex justify-content-between align-items-center">
+          {/* <div className="d-flex justify-content-between align-items-center">
            
             <div className="form-check mb-0">
               <input className="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
@@ -55,15 +44,13 @@ export default function Page () {
                 Remember me
               </label>
             </div>
-            <Link href="/forgotpassword" className="text-body">Forgot password?</Link>
-          </div>
+            <a href="#!" className="text-body">Forgot password?</a>
+          </div> */}
 
           <div className="text-center text-lg-start mt-4 pt-2">
             
             <button type="button" className="btn btn-primary btn-lg
-              padding-left: 2.5rem; padding-right: 2.5rem">Login</button>
-            <p className="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <Link href="/register"
-                className="link-danger">Register</Link></p>
+              padding-left: 2.5rem; padding-right: 2.5rem">Submit</button>
           </div>
 
         </form>
@@ -100,5 +87,4 @@ export default function Page () {
 
 
     );
-
 }
