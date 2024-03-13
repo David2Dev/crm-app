@@ -14,7 +14,7 @@ export default function Page () {
           <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
             <form>
               <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
-                <p className="lead fw-normal mb-0 me-3">Sign into CRM Dashboard</p>
+                <p className="lead fw-normal mb-0 me-3">Register for CRM Dashboard</p>
                 {/* <button type="button" className="btn btn-primary btn-floating mx-1">
                   <i className="fab fa-facebook-f"></i>
                 </button>
@@ -34,21 +34,35 @@ export default function Page () {
     
               
               <div className="form-outline mb-4">
-                <input type="email" id="form3Example3" className="form-control form-control-lg"
+                <input type="text" id="form3Example3" className="form-control form-control-md"
+                  placeholder="Enter first name" />
+                <label className="form-label" htmlFor="form3Example3">First Name</label>
+              </div>
+    
+              
+              <div className="form-outline mb-3">
+                <input type="text" id="form3Example4" className="form-control form-control-md"
+                  placeholder="Enter last name" />
+                <label className="form-label" htmlFor="form3Example4">Last Name</label>
+              </div>
+
+              <div className="form-outline mb-4">
+                <input type="email" id="form3Example3" className="form-control form-control-md"
                   placeholder="Enter a valid email address" />
                 <label className="form-label" htmlFor="form3Example3">Email address</label>
               </div>
     
               
               <div className="form-outline mb-3">
-                <input type="password" id="form3Example4" className="form-control form-control-lg"
+                <input type="password" id="form3Example4" className="form-control form-control-md"
                   placeholder="Enter password" />
                 <label className="form-label" htmlFor="form3Example4">Password</label>
               </div>
+
     
               <div className="d-flex justify-content-between align-items-center">
                
-                <div className="form-check mb-0">
+                {/* <div className="form-check mb-0">
                   <input className="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
                   <label className="form-check-label" htmlFor="form2Example3">
                     Remember me
@@ -57,12 +71,12 @@ export default function Page () {
                 <Link href="/forgotpassword" className="text-body">Forgot password?</Link>
               </div>
     
-              <div className="text-center text-lg-start mt-4 pt-2">
+              <div className="text-center text-lg-start mt-4 pt-2"> */}
                 
                 <button type="button" className="btn btn-primary btn-lg
-                  padding-left: 2.5rem; padding-right: 2.5rem">Login</button>
-                <p className="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <Link href="/register"
-                    className="link-danger">Register</Link></p>
+                  padding-left: 2.5rem; padding-right: 2.5rem">Register</button>
+                {/* <p className="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <Link href="/register"
+                    className="link-danger">Register</Link></p> */}
               </div>
     
             </form>
@@ -73,7 +87,7 @@ export default function Page () {
         className="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
         
         <div className="text-white mb-3 mb-md-0">
-          Copyright © 2020. All rights reserved.
+          Copyright © 2024. All rights reserved.
         </div>
        
     
